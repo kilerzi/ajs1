@@ -28,7 +28,7 @@ displaystudentnames();
 async function displaysortedstudents() {
   const students = await fetchstudents();
 
-  // Create a copy of the students array and then sort it
+  //sorting the students ascendingly taka sto gi sporeduva site ocenki pomegusebno (mislam deka)
   const sortedstudents = students.sort(
     (a, b) => a.averageGrade - b.averageGrade
   );
